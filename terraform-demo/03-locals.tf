@@ -10,6 +10,6 @@ locals {
   Owner = " Mohanbabu"
   common_tags = {
     service = local.service_name
-    #owner = local.Owner
+    owner = local.Owner
   }
 }
